@@ -1,11 +1,11 @@
-#include "stdafx.h"
+
 #include <iostream>
 #include "math.h"
 #include "conio.h"
 
 using namespace std;
 
-void main()
+int main()
 {
     float a,b,c,d,X1,X2;
     
