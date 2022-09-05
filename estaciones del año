@@ -1,0 +1,31 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+    int  dia, mes;
+    cout<<"¡Bienvenido!"<<endl;
+    cout<<"Aquí podrás saber en qué estación del año estás. "<<endl;
+    cout<<"Ingrese el día: "; 
+    cin>>dia;
+    cout<<"Ingrese el mes: "; 
+    cin>>mes;
+
+
+    if ((mes==12 && dia>=21) || mes==1 || mes==2 || (mes==3 && dia<21)){
+
+        cout<<"La estación es verano. ";
+    }
+    else {
+        if ((mes==3 && dia>=21) || mes==3 || mes==4 || mes==5 || (mes==6 && dia<21)){
+            cout<<"La estación es otoño. ";
+        }
+        if ((mes==6 && dia>=21) || mes==7 || mes==8 || (mes==9 && dia<21)){
+            cout<<"La estación es invierno. ";
+            }
+        if ((mes==9 && dia>=21) || mes==10 || mes==11 || (mes==12 && dia<21)){
+            cout<<"La estación es primevera. ";
+                }
+    }
+
+    return 0;
+}
