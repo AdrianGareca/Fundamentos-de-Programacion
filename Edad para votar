@@ -6,10 +6,16 @@ using namespace std;
 
 int main (){
     int edad, estado;
+    float sueldo;
     cout<<"Ingrese la edad ";
     cin>>edad;
     if (edad>=18)
-        cout<<"Puede votar ";
+    {
+        cout<<"Puede votar "<<endl;
+        cout<<"Cuanto es el sueldo "<<endl;
+        cin>>sueldo;
+        cout<<"El 1' por ciento es" <<sueldo*0.10;
+    }
     else 
         if (edad>=14)
         {
