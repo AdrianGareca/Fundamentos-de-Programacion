@@ -1,0 +1,24 @@
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+
+using namespace std;
+
+int main()
+{
+    int edad, mayor, hermano1, hermano2, hermano3;
+    cout<<"Ingrese la edad del 1er hermano"<<endl;
+    cin>>hermano1;
+    cout<<"Ingrese la edad del 2do hermano"<<endl;
+    cin>>hermano2;
+    cout<<"Ingrese la edad del 3er hermano"<<endl;
+    cin>>hermano3;
+    if (mayor<hermano1)
+        mayor=hermano1;
+    if (mayor<hermano2)
+        mayor=hermano2;
+    if (mayor<hermano3)
+        mayor=hermano3;
+        cout<<"El mayor es: "<<mayor;
+    return 0;
+}
