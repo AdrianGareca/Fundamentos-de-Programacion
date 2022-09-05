@@ -13,6 +13,7 @@ int main()
     cin>>hermano2;
     cout<<"Ingrese la edad del 3er hermano"<<endl;
     cin>>hermano3;
+    mayor=0
     if (mayor<hermano1)
         mayor=hermano1;
     if (mayor<hermano2)
