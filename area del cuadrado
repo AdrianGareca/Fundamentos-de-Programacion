@@ -8,7 +8,7 @@ void main ()
 {
     float lado, area;
     cout<<"Ingrese el lado: "<<endl;
-    cin<<lado;
+    cin>>lado;
     area = lado*lado;
     cout<<"El area del cuadrado es: "<<area;
     getch();
