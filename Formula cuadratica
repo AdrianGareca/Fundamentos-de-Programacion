@@ -38,7 +38,7 @@ int main()
             cout<<"El resultado de X1 es: "<<X1<<"+"<<X2<<"i"<<endl;
             cout<<"El resultado de X2 es: "<<X1<<"+"<<X2<<"i"<<endl;
         }
-        getch();
+        retun 0;
     
     
 }
